@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing:calc();
+    /* background-image: url("C:\Users\hp\Desktop\weather-api project\weather.jpg"); */
+    background-image: url('weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+body {
+    /* margin: 0; */
+    font-family: "Poppins", sans-serif;
+    background-color: linear-gradiet(350deg, #24d95b, #12d2d2);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction:column;
+    /* background-image: url("C:\Users\hp\Desktop\weather-api project\weather.jpg"); */
+}
+
+input {
+    padding: 3rem;
+    /* border-radius: px; */
+    border:0cqh;
+    background-color:#24d95b;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* box-shadow:#24d95b; */
+    min-width: 300px;
+    font-size: 3rem;
+    font-display:inherit;
+    text-align:center;    
+    background-image: url("C:\Users\hp\Desktop\weather-api project\weather.jpg");
+
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+/* input:focus {
+    outline: none;
+} */
+.weather {
+    text-align: center;
+    font-size: 3rem;
+}
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+} 
